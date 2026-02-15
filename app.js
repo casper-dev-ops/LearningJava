@@ -1,1 +1,2 @@
-alert("Hello from app.js!")
+console.log("Hello JavaScript");
+console.log(34 * 809)
