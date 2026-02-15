@@ -23,4 +23,20 @@ console.log(34 * 809)
  console.log(bigMath < smallMath);
 
 
- 
+ let age = 30;
+ if (age > 18) {
+     console.log("You are an adult");
+ }
+
+
+
+
+
+ age = age + 1;
+ console.log(age);
+
+
+ console.log(5 === 5);
+ console.log(5 === "5");
+ console.log(5 == "5"); 
+
