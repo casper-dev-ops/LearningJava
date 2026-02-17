@@ -17,8 +17,8 @@
 // //  islearning = false;
 // //  console.log(islearning);
 
-// //  const bigMath = 9999999999999999;
-// //  const smallMath = 0.0000000000000001;
+ const bigMath = 9999999999999999;
+ const smallMath = 0.0000000000000001;
 
 // //  console.log(bigMath < smallMath);
 
@@ -108,3 +108,88 @@
 // subtractNumbers(92, 8);
 // multiplyNumbers(92, 8);
 // divideNumbers(92, 8);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+console.dir(document.body)
+
+
+
+document.body.innerHTML = "<h1>Hello JavaScript 🦧</h1>";
+document.body.innerHTML = document.body.innerHTML + "<button>Click me</button>";
+document.body.style.color = "LightGreen";
+document.body.style.backgroundColor = "gray";
+
+
+
+
+
+class product {
+    constructor(name, price) {
+        this.name = name;
+        this.price = price; 
+    }
+
+    displayProduct() {
+        console.log(`product: ${this.name}`);
+        console.log(`price: $${this.price}`);
+    }    
+
+    calculateTotal(salesTax) {
+        return this.price + (this.price * salesTax);
+
+}
+
+
+}
+
+
+ const product1 = new product("Laptop", 999.99);
+ const product2 = new product("Phone", 599.99);
+ const product3 = new product("Tablet", 299.99);
+ const salesTax = 0.07;
+
+ product1.displayProduct();
+ product2.displayProduct();
+ product3.displayProduct();
+
+const total = product1.calculateTotal(salesTax)
+
+console.log(`Total price with tax: $${total.toFixed(2)}`);
+
+
+
+
